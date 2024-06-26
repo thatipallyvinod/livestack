@@ -1,0 +1,86 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  height: 100vh;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.welcome-message {
+  text-align: center;
+  background-color: #ffffff; /* White background for the message box */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+  margin-bottom: 40px;
+}
+
+.welcome-message h1 {
+  margin-bottom: 20px;
+  color: #007bff; /* Main theme color */
+  font-size: 2.5rem;
+}
+
+.welcome-message p {
+  margin-bottom: 30px;
+  color: #6c757d; /* Secondary text color */
+  font-size: 1.2rem;
+}
+
+.welcome-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.welcome-button {
+  display: inline-block;
+  padding: 12px 24px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.welcome-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.sections-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.section {
+  flex: 1;
+  margin: 0 20px;
+  padding: 40px;
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: none;
+  text-align: center;
+}
+
+.section-image {
+  width: 150px; /* Set width */
+  height: 150px; /* Set height */
+  border-radius: 70%; /* Make it circular */
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #007bff; /* Main theme color */
+  font-size: 2rem;
+}
+
+.section p {
+  margin-bottom: 30px;
+  color: #6c757d; /* Secondary text color */
+  font-size: 1.2rem;
+}

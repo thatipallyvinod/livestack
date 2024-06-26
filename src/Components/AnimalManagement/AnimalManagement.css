@@ -1,0 +1,71 @@
+.animal-list,
+.animal-profile,
+.add-edit-animal {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.animal-list table,
+.health-records table,
+.breeding-records table,
+.inventory-list table,
+.expense-tracking table,
+.sales-records table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.animal-list table th,
+.animal-list table td,
+.health-records table th,
+.health-records table td,
+.breeding-records table th,
+.breeding-records table td,
+.inventory-list table th,
+.inventory-list table td,
+.expense-tracking table th,
+.expense-tracking table td,
+.sales-records table th,
+.sales-records table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.animal-list table th,
+.health-records table th,
+.breeding-records table th,
+.inventory-list table th,
+.expense-tracking table th,
+.sales-records table th {
+  background-color: #f2f2f2;
+}
+
+.add-edit-animal form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.add-edit-animal form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-edit-animal form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-edit-animal form button:hover {
+  background-color: #45a049;
+}

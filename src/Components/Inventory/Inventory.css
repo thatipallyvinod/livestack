@@ -1,0 +1,14 @@
+/* src/components/Inventory/styles.css */
+.inventory-list {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .inventory-list h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  

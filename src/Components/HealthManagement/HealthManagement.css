@@ -1,0 +1,25 @@
+.health-records,
+.health-alerts {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.health-alerts ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.health-alerts ul li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.health-alerts ul li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
